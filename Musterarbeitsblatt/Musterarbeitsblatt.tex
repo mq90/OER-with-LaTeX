@@ -1,0 +1,76 @@
+\documentclass[12pt, a4paper]{report} %Festlegung der Dokumentenklasse (report - Arbeitsblatt oder Skript, book - Buch, uvm. ...)
+\usepackage[utf8]{inputenc} %Package zur Verwendung von allen Zeichen des UTF8-Standards
+\usepackage{amssymb} %Package für sämtliche mathematischen Symbole (such gegebenenfalls in Onlineverzeichnissen nach, welche Symbole wie aufgerufen werden)
+\usepackage{amsmath} %Package zur Verwendung des mathematischen Formelsatzes
+\usepackage[ngerman]{babel} %Package um deutsche Umlaute schreiben zu können.
+\usepackage[pdftex]{graphicx} %Package zur Einbeziehung von Bilder und Grafiken
+\usepackage[right]{eurosym} %Package für das Euro-Symbol wird aufgerufen mit \euro{}
+\pagestyle{empty} %Festeleung der Seitennummerierung (empty - keine Nummerierung, )
+\usepackage{geometry} %Package für Papierausrichtung
+\usepackage{tikz} %Package für die Zeichenoberfläche tikz
+\usetikzlibrary{arrows, positioning, angles, calc} %Tikzbibliothek (arrows - Pfeile zeichnen, positioning - Koordinaten festlegen, angles - Winkel einzeichnen (benötigt positioning), calc - Rechnen in Koordinaten mit mathematischer Umgebung in der Koordinate)
+\usepackage{pgfplots} %Package für sämtliches Plotten
+
+\parindent=0px %paragraph indent (Zeileneinrückung auf 0 Pixel gesetzt - keine Einrückung)
+\geometry{a4paper, top=15mm, left=27mm, right=27mm, bottom=15mm, headsep=10mm, footskip=12mm}  %Festlegung für die Ausrichtig des Papiers
+
+\begin{document}
+	\begin{center} \textbf{\large{Überschrift Arbeitsblatt}} \end{center}
+	\bigskip
+	%Abstände zwischen Zeilen können nach eigenem Belieben hinsichtlich einer besseren Optik eingebaut werden. (smallskip - kleiner Abstand, medskip - mittlerer Abstand, bigskip - großer Abstand)
+	\textbf{Teil A (hilfsmittelfrei 15 min)}
+	\begin{enumerate}
+		\item Berechne \marginpar{4 BE} (Kl.5 -10) bzw. Berechnen Sie (Kl. 11/12):
+			\[ (a) \quad ....... \qquad \qquad \qquad \qquad (b) \quad ....... \qquad \qquad \qquad \qquad (c) \quad.......\]
+			%Bei wenig Unteraufgaben kann es sich anbieten alles in eine Zeile zu schreiben. Man macht die entweder mit \begin{equation} ..... \end{equation} oder kurz \[ ..... \] (Dabei ist die Angabe einer Matheumgebung mit $...$ nicht nötig.)
+			%Abständ zwischen Zeichen können nach eigenem Belieben hinsichtlich der besseren Optik eingebaut werden. (\, bzw. \; bzw \quad bzw. \qquad sind möglicher Abstande in aufsteigender Form)
+		\item Es ist auch folgende Nummerierung möglich:
+			\begin{enumerate}
+				\item ......
+				\item ......
+				\item ......
+			\end{enumerate}
+			%Sind die Aufgaben länger zu formulieren oder möchte man mit minipage die Seite teilen, empfiehlt sich eine neue enumerate-Aufzählung zu öffnen.
+		\item Bei vielen Unteraufgaben empfiehlt sich eine Tabelle mit folgende Ausrichtung:
+			%Nummerierungen beginnen automatisch etwas weiter unter der Textzeile. Bei Tabellen sollte man mit \begin{center} ... \end{center} mittig setzen, damit es einfach optisch besser aussieht.
+			\begin{center}\begin{tabular}{c l c c l c c l}
+				$(a)$ & ...... & $\qquad \qquad \qquad$ & $(e)$ & ...... & $\qquad \qquad \qquad$ & $(i)$ & ......\\
+				& & & & & & &\\
+				$(b)$ & ...... & $\qquad \qquad \qquad$ & $(f)$ & ...... & $\qquad \qquad \qquad$ & $(j)$ & ......\\
+				& & & & & & &\\
+				$(c)$ & ...... & $\qquad \qquad \qquad$ & $(g)$ & ...... & $\qquad \qquad \qquad$ & $(k)$ & ......\\
+				& & & & & & &\\
+				$(d)$ & ...... & $\qquad \qquad \qquad$ & $(h)$ & ...... & $\qquad \qquad \qquad$ & $(l)$ & ......\\
+			\end{tabular}\end{center}
+			%Bei der Tabelle steht in der Kopfzeile jeder Buchstabe für die Ausrichtung der jeweiligen Spalte (c - zentriert, l - linksbündig, r - rechtsbündig). Es reicht meistens aus die erste Zeilt für die Tabelle auszuschreiben und dann mit Copy-Paste alle weiteren Zeilen hinzuzufügen. Die Zwischenzeile & & & & & &\\ ohne Einträge sorgt für etwas Abstand zwischen den Aufgaben, wenn man zum Beispiel mit Grenzwert, Integralen oder Vektoren arbeitet. (Alternativ kann man auch am Anfang einen Tabellenabstand definieren, allerdings ist dieser dann für alle Tabellen fix und deswegen verzichte ich an dieser Stelle im Muster darauf)
+			%Beim Formulieren der Aufgabe sämlichte Variablen, Zahlenwerte oder Einheiten immer in die Matheumgebung $....$ setzen. Das ein x in der Aufgabe einfach einheitlich zur Aufgabenstellung in der Matheumgebung aussieht!
+	\end{enumerate}
+	
+	\newpage %Empfehle bei einem newpage-Befehl nach oben und unten im Quelltext eine Zeile frei zu lassen, damit der Quelltext übersichtlicher wird. Ansonsten wie beim Programmieren immer logisch die Befehle einrücken (siehe enumerate usw. )
+	
+	\noindent
+	\textbf{Teil B (mit Taschenrechner und GTR 30 min)}
+	\begin{enumerate}
+		\item ... 
+		\item ...
+	\end{enumerate}
+	
+	\newpage
+
+	\begin{center}\textbf{\large{Lösungen}}\end{center}
+	%Lösungen wenn möglich immer mit dazu erstellen. Dabei können eventuelle Fehler in der Aufgabenstellung erkannt werden, und man weis immer was vom Schüler (Schülerin) gefordert wird.
+	\bigskip
+	\textbf{Teil A (hilfsmittelfrei 15 min)}
+	\begin{enumerate}
+		\item 
+		\item
+		\item
+	\end{enumerate}
+	\bigskip
+	\textbf{Teil B (mit Taschenrechner und GTR 30 min)}
+	\begin{enumerate}
+		\item
+		\item 
+	\end{enumerate}
+	% In den Lösungen immer die gleiche Nummerierung wie in den Aufgaben verwenden.
+\end{document}
