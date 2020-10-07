@@ -17,7 +17,7 @@ Zur Struktur des Repository unterliegt folgenden Vorgaben:
 
 
 
-English:
+# English:
 
 This is a repository of digital teaching and learning materials created by LaTeX. A few minimal examples of various LaTeX packages should also be given, which are useful for use in school. Initially, the majority of the teaching materials will be used for mathematics. The database will be expanded over time for other subjects.
 
