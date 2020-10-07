@@ -7,13 +7,12 @@ Dies ist ein Repository mit LaTeX erstellten digitalen Lehr- und Lernmaterialien
 Ziel dieses Projekts ist es, eine Datenbank mit verschiedenen digitalen Lehrmedien zu erstellen, die mit LaTeX erstellt wurden.
 Bitte kommentiert bzw. bearbeitet die PDFs und die anderen resultierenden Dateien nicht, welche beim Kompilieren von LaTeX entstehen. Dies würde das Repository unnötig kompliziert gestalten. Bitte kommentiert bzw. bearbeitet nur die tex-Dateien oder Bibtex-Dateien sowie eventuelle Bilddateien.
 
-Das Material des Repository kann unter den Bedingungen der Creative Commons Zero v1.0 Universal License (CC-0) frei verwendet, verbreitet, überarbeitet und veröffentlicht werden. Der Name des Erstautors eines Materials sollte bei der Quellenagabe nur in Absprache mit diesem veröffentlicht werden. Jede tex-Datei im Repository unterliegt dabei der LaTeX Project Public License v1.3c (LPPL). Dabei ist die Dateinamen-Klausel zu beachten. Sie fordert, dass eine weiterverarbeitete tex-Datei nicht unter demselben Dateinamen wie die ursprüngliche Datei verbreitet werden darf.
-
 Die Struktur des Repository unterliegt folgenden Vorgaben:
 1. Jede tex-Datei ist in einem separaten Ordner gespeichert. Der Name des Ordners sollte dem Leser kurz beschreiben, worum es sich beim Beispielcode handelt.
 2. Die main tex-Datei sollte den gleichen Namen wie der Ordner besitzen.
 3. Jedes Unterrichtsmaterial bzw. jedes Minimalbeispiel sollte ein README.md besitzen, welches kurz erklärt, um was es sich bei dem tex-Beispiel handelt. Dabei sollte Spaces für den Indent-Mode verwendet werden.
 
+Das Material des Repository kann unter den Bedingungen der Creative Commons Zero v1.0 Universal License (CC-0) frei verwendet, verbreitet, überarbeitet und veröffentlicht werden. Der Name des Erstautors eines Materials sollte bei der Quellenagabe nur in Absprache mit diesem veröffentlicht werden. Jede tex-Datei im Repository unterliegt dabei der LaTeX Project Public License v1.3c (LPPL). Dabei ist die Dateinamen-Klausel zu beachten. Sie fordert, dass eine weiterverarbeitete tex-Datei nicht unter demselben Dateinamen wie die ursprüngliche Datei verbreitet werden darf.
 
 
 
